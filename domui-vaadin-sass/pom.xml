@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>sass-compiler-root</artifactId>
+        <groupId>to.etc.domui</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>to.etc.domui</groupId>
+    <artifactId>domui-vaadin-sass</artifactId>
+    <version>1.2-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
+
+    <name>domui :: sass :: domui-vaadin-sass</name>
+    <description>Low level common code</description>
+    <inceptionYear>2017</inceptionYear>
+
+    <dependencies>
+        <dependency>
+            <groupId>to.etc.domui</groupId>
+            <artifactId>domui-vaadin-sass-compiler</artifactId>
+            <version>1.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>to.etc.domui</groupId>
+            <artifactId>to.etc.domui</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

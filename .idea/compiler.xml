@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Eclipse" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="domui-vaadin-sass" />
         <module name="vaadin-sass-compiler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app-root" target="1.5" />
+      <module name="domui-vaadin-sass" target="1.8" />
       <module name="vaadin-sass-compiler" target="1.6" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="domui-vaadin-sass" options="-properties /home/jal/git/domui/tmp/domui-vaadin-sass/.settings/org.eclipse.jdt.core.prefs" />
+    </option>
   </component>
 </project>
